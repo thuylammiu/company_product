@@ -1,0 +1,206 @@
+.product-main {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.product-list-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    
+    row-gap: 2rem;
+}
+
+.product-item {
+    background: var(--white);
+    border-radius: var(--borderRadius);
+    display: grid;
+    grid-template-rows: 1fr auto;
+    box-shadow: var(--shadow-2);
+}
+
+.product-item header {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--grey-100);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.product-item .main-icon {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    background: var(--primary-500);
+    border-radius: var(--borderRadius);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-right: 2rem;
+}
+
+.product-item .info h5 {
+    margin-bottom: 0.25rem;
+}
+
+.product-item header h5 {
+    -webkit-letter-spacing: 0;
+    -moz-letter-spacing: 0;
+    -ms-letter-spacing: 0;
+    letter-spacing: 0;
+}
+
+.product-item .info p {
+    margin: 0;
+    text-transform: capitalize;
+    color: var(--grey-400);
+    -webkit-letter-spacing: var(--letterSpacing);
+    -moz-letter-spacing: var(--letterSpacing);
+    -ms-letter-spacing: var(--letterSpacing);
+    letter-spacing: var(--letterSpacing);
+}
+
+.product-item .content {
+    padding: 1rem 1.5rem;
+}
+
+.product-item .content-center {
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5rem;
+}
+
+.product-item footer {
+    margin-top: 1rem;
+}
+
+.product-page{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.product-item .edit-btn {
+    color: var(--green-dark);
+    background: var(--green-light);
+    margin-right: 0.5rem;
+    letter-spacing: var(--letterSpacing);
+    cursor: pointer;
+     height: 30px; 
+   
+}
+
+.product-item  .delete-btn {
+    color: var(--red-dark);
+    background: var(--red-light);
+    -webkit-letter-spacing: var(--letterSpacing);
+    -moz-letter-spacing: var(--letterSpacing);
+    -ms-letter-spacing: var(--letterSpacing);
+    letter-spacing: var(--letterSpacing);
+    cursor: pointer;
+    height: 30px;
+}
+
+.product-add-bar{
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+.add-btn {
+    color: var(--green-dark);
+    background: var(--green-light);
+    margin-right: 0.5rem;
+    letter-spacing: var(--letterSpacing);
+    cursor: pointer;
+     height: 30px; 
+   
+}
+
+.add-form {
+    border-radius: var(--borderRadius);
+    width: 100%;
+    background: var(--white);
+    padding: 3rem 2rem 4rem;
+    box-shadow: var(--shadow-2);
+}
+
+.add-form .form {
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.add-form .form-center {
+    grid-template-columns: 1fr 1fr 1fr;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-column-gap: 1rem;
+    column-gap: 1rem;
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.add-form .btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 1rem;
+    column-gap: 1rem;
+   
+    -ms-flex-item-align: end;
+   
+}
+
+.add-form .btn-container button {
+    height: 35px;
+}
+
+.add-form .form-center button {
+    -webkit-align-self: end;
+    -ms-flex-item-align: end;
+    align-self: end;
+    height: 35px;
+    margin-top: 1rem;
+}
+
+.add-form .clear-btn {
+    background: var(--grey-500);
+}
+
+.add-form .btn-container button {
+    height: 35px;
+}
+
+.add-form .form-center button {
+    -webkit-align-self: end;
+    -ms-flex-item-align: end;
+    align-self: end;
+    height: 35px;
+    margin-top: 1rem;
+}
+
+.add-form h3 {
+    margin-top: 0;
+    font-size: 1.953rem;
+}
+
+.btn-search-container
+{
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+
+.search-form{
+    padding-top: 2rem!important;
+    padding-bottom: 2rem!important;
+}
